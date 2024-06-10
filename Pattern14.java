@@ -1,0 +1,39 @@
+public class Pattern14
+{
+	public static void main(String[] args)
+	{
+		int i,j,k,m,n,o,p,q;
+		for(i=1;i<=5;i++)
+		{
+			for(j=5;j>=i;j--)
+			{
+				System.out.print("*");
+			}
+			for(k=2;k<2*i;k++)
+			{
+				System.out.print("_");
+			}
+			for(m=5;m>=i;m--)
+			{
+				System.out.print("*");
+			}
+			System.out.print("\n");
+		}
+		for(n=2;n<=5;n++)
+		{
+			for(o=1;o<=n;o++)
+			{
+				System.out.print("*");
+			}
+			for(p=10;p>2*n;p--)
+			{	
+				System.out.print("_");
+			}
+			for(q=1;q<=n;q++)
+			{
+				System.out.print("*");
+			}
+			System.out.print("\n");
+		}	
+	}
+}
